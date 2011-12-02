@@ -96,8 +96,9 @@ ActiveAdmin.setup do |config|
   # and feel.
   #
   # To load a stylesheet:
-  #   config.register_stylesheet 'my_stylesheet.css'
+  config.register_stylesheet 'jquery.weekcalendar.css'
   #
   # To load a javascript file:
-  #   config.register_javascript 'my_javascript.js'
+  config.register_javascript 'jquery.weekcalendar.js'
+  config.register_javascript 'calendar.js'
 end
